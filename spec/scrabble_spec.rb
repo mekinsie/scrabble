@@ -2,9 +2,15 @@ require('rspec')
 require('pry')
 require('scrabble')
 
-describe('Score#return_letter_score') do
+describe('Score#return_word_score') do
   it("returns a scrabble score for a letter") do
-    score = Score.new("a")
-    expect(score.return_letter_score).to(eq(1))
+    score = Score.new("e")
+    expect(score.return_word_score).to(eq(1))
+  end
+  it("returns a scrabble score for a word") do
+    score = Score.new("aeiou")
+    expect(score.return_word_score).to(eq(5))
   end
 end
+
+
