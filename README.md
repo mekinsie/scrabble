@@ -5,6 +5,11 @@ Kerry Lang, Mekinsie Callahan
 
 ### _This project was created solely for the education of the author(s) and is not in a complete or portfolio-ready state. It should not be considered representative of professional work._
 
+## Technologies Used
+* Ruby
+* Docker
+* Gem Bundler
+
 ## Description
 
 This application takes a word and returns the Scrabble score for that word.
